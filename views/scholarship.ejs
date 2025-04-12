@@ -1,0 +1,6 @@
+<h2>Available Scholarships</h2>
+<ul>
+  <% scholarships.forEach(s => { %>
+    <li><strong><%= s.name %></strong>: <%= s.description %> (Eligibility: <%= s.eligibility %>)</li>
+  <% }) %>
+</ul>

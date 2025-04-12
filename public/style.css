@@ -1,0 +1,18 @@
+/* Simple styles for Campus Bridge UI */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f4f8;
+}
+
+.header {
+  background-color: #004e92;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+.container {
+  padding: 30px;
+}
